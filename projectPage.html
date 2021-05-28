@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciaran's Portfolio</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="background">
+    <div>
+      <!--Website Container-->
+      <div class="bannerController">
+        <!-- Selection bar and main picture -->
+
+        <div>
+          <!-- Mountain range-->
+          <div class="marquee">
+            <ul class="marqueeContent">
+              <li>
+                <img
+                  src="images/mountainRange2.png"
+                  alt="Moutain range drawing for a banner"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/mountainRange2.png"
+                  alt="Moutain range drawing for a banner"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/mountainRange2.png"
+                  alt="Moutain range drawing for a banner"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="centerImage"> -->
+        <!-- Centre Picture -->
+        <!-- <img class="profilePic" src="images/ciaranThrone.jpg" alt="" />
+        </div> -->
+
+        <div class="header">
+          <div class="leftButtons">
+            <!-- Left Side-->
+            <div class="button_cont">
+              <a class="example_c" href="infoPage.html">Info</a>
+            </div>
+
+            <div class="button_cont">
+              <a class="example_c" href="projectPage.html">Projects</a>
+            </div>
+          </div>
+
+          <div class="centerImage">
+            <!-- Centre Picture -->
+            <img
+              class="profilePic"
+              src="images/ciaranThrone.jpg"
+              alt="Profile picture of me on a throne"
+            />
+          </div>
+
+          <div class="rightButtons">
+            <!-- Right Side-->
+            <div class="button_cont">
+              <a class="example_c" href="hobbiesPage.html">Hobbies</a>
+            </div>
+
+            <div class="button_cont">
+              <a class="example_c" href="extraPage.html">Extra</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Main content to page -->
+
+        <div class="mainContentContainer">
+          <!-- Slideshow container -->
+          <div class="section1">
+            <div class="slideshowContainer">
+              <!-- Full-width images with number and caption text -->
+
+              <div class="mySlides fade">
+                <div class="numberText">1 / 4</div>
+                <br />
+                <div>
+                  <p>
+                    A tic tac toe game with a min-max algoythm to play against.
+                  </p>
+                  <iframe
+                    src="https://trinket.io/embed/python3/2e2ae14975?toggleCode=true&runOption=run&start=result"
+                    width="100%"
+                    height="356"
+                    frameborder="0"
+                    marginwidth="0"
+                    marginheight="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="slideshowCaption">tic tac toe</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numberText">2 / 4</div>
+                <br />
+                <div>
+                  <p>
+                    The first major project of my university course was to
+                    create a simple sire simulation using text based graphics.
+                    (Input code here later)
+                  </p>
+                </div>
+                <div class="slideshowCaption">Fire Simulation</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numberText">3 / 4</div>
+                <br />
+                <div>
+                  <p>
+                    Loki Theivery was a group game project that I was the
+                    project manager for. (Input documents here)
+                  </p>
+                </div>
+                <div class="slideshowCaption">Loki Theivery</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numberText">4 / 4</div>
+                <br />
+                <div>
+                  <p>
+                    My dissertation was on a genetic nueral network AI called
+                    Darwins AI. (Put dissertation here)
+                  </p>
+                </div>
+                <div class="slideshowCaption">dissertation</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
